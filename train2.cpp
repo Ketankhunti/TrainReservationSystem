@@ -3,7 +3,7 @@ using namespace std;
 
 class Route{
     public:
-    pair<string, int> station;
+    pair<string, int> station;  // (station name , distance of station from current station)
 };
 class Ticket{
     public:
